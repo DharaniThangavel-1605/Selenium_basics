@@ -1,0 +1,46 @@
+Today Agenda:
+08:45 to 09:00 -Introduction
+09:00 to 09:15 - Mentor Introduction(Breakout) 
+09:15 to 09:40 - Core Java Introduction
+09:40 to 09:50 - Break
+09:50 to 10:20 -Class,Main Method
+10:20 to 10:40 -Classroom(10mins)+Break(10mins) 
+10:40 to 11.20 -Datatypes and Variables
+11:20 to 11:45 -Classroom+Break 
+11:45 to 12:15 -Control Statments(if-condition) 
+12:15 to 12:50 -For Loop
+12:50 to 01:10 -Classroom
+
+
+
+Eclipse
+IDE-Integrated Development Environment
+
+DataTypes:
+
+age =27
+
+age? variable 
+27? value
+
+datatype variablename = value;
+
+
+varaiable :
+1 local variable - variable given inside main method -local variable(brown color)
+
+2. Global variable -variable given inside call level -(blue color)
+
+
+
+Control Stmt:
+
+If-condition:
+
+syntax:
+
+if(num>0){
+syso("positive")
+}else{
+syso("negative")
+}

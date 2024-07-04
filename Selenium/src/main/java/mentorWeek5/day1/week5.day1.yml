@@ -1,0 +1,148 @@
+Agenda for Today:
+09:00 to 09:40->TestNG Introduction & convert normal script to TestNG tests 
+09:40 to 10:00->Breakout(15 mins)+Break(5 mins) 
+10:00 to 10:30->Sequential Execution 
+10:30 to 10:50->Breakout(10 mins)+Break(10 mins) 
+10:50 to 11:30-> Parallel Execution 
+11:30 to 11:55->Breakout(15 mins)+Break(10 mins) 
+11:55 to 12:40->TestNG Annotations 
+12:40 to 01:00->Breakout(20 mins) 
+01:00 to 01:10->Recap
+
+
+
+TestNG:
+Test Next Generation (TestNG)
+TestNG execution-framework
+
+J-unit - Java
+N-unit -.net
+
+Selenium:
+Limitation:
+1.one by one (500 UI automated)-exc
+*time consuming
+*manually someone have to present
+
+^Sequential and Parallel execution(run you can able to more than on TC)
+
+2.run for Hardcode values
+sendkeys("Dilip")-hardcode
+
+^ NO hardcode values given
+
+3.Thers is No status for Code
+
+^ we will get basic status and basic report
+
+4.There is no way to run with only specific testcase (Somke)
+
+^ Groups
+
+5.There is no way to re-run with failure testcase 
+
+^automated the failure testcase for re-run
+
+
+Selenium:
+CreateLead
+EditLead
+DeleteLead
+
+-5
+sunday-moive,hotel,shopping
+
+TestNG:
+CreateLead
+EditLead
+DeleteLead
+
+-5
+-2
+-3
+-5
+Sunday-Mall - Moive,hotel-2,shopping-3,
+
+-j unit-parallel execution
+
+<suite>-one time 
+1.<test>-Multiple test tags
+
+1*<classes>-Multiple calsses tags
+<class name="week5.day1.CreateLead" />
+</classes>
+
+
+2*<classes>
+<class name="week5.day1.EditLead"/>
+</classes>
+
+</test>
+
+2.<test>
+</test>
+
+
+</suite>
+
+
+verbose- get error logs
+default value -1
+range 1-10
+
+
+Thread_Count: its use only parallel execution
+it have count of number browser to be open
+thread-count=5 or 7 
+testcase -10
+
+default value=2
+
+Annotation:
+
+
+
+Annotation Hierarchy
+     @BeforeSuite-one time -startReport
+         @BeforeTests- set data connecting with testcase
+                @BeforeClass -details for tc,author,decs
+                     @BeforeMethod -pre condtion(login-browser,username,password,click)    
+                              @Test  -
+                    @AfterMethod -post condition(close)
+              @AfterClass
+      @AfterTest
+   @AfterSuite
+
+
+@Test-Mandatory
+other annotation are optional
+
+
+@BeforeSuite
+@BeforeTest
+@BeforeClass
+@BeforeMethod
+createLead @Test:
+@AfterMethod
+@BeforeMethod
+editLead @Test:
+@AfterMethod
+@AfterClass
+@AfterTest
+@AfterSuite
+
+BM & AM is runing for all @Test
+
+
+
+c,e,dup,de,m-leads
+
+login & driver.close
+
+create new Class:
+BaseClass or ProjectSpecificMethods ex:Common class
+
+add my precondition and post condition
+testcase common stpes will deleted
+
+extends my base class or PSM to testcase

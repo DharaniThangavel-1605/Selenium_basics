@@ -1,0 +1,68 @@
+Todays Agenda:
+    09:00-09:40-Selenium Introdution
+    09:40:10:10-Launch Browser
+    10:10--10:35-Classroom+Break
+    10:35-12:00-Locators
+    12:00-12:30-Classroom
+    12:30-01:00- Select Class(Dropdown)
+    01:00-1:20-Classroom
+
+
+Selenium:
+
+* Selenium is UI(user interface) Automation 
+* Only Web Application 
+* W3C - World Wide Web Constorium
+
+pom.xml
+ pom-project object model 
+
+ how interact with web application:
+
+ Html structure
+
+ Locators:
+ 8
+ 1.id
+ 2.name
+ 3.classname
+ 4.linktext
+ 5.partial linktext
+ 6.tag name
+ 7.xpath
+ 8.css selector
+
+
+ DOM-Document Object Model
+ Open DOM:
+ 1.Right web page -> Inspect
+ 2.press f12 or fn f12
+ 3.more tools-> Developer tool
+
+
+ <html>,<div>-tag name -purple color
+ id,class,name - attribute name-brown color
+ "username","password"- attribute value-blue color
+ username- text-black color
+
+
+DropDown:
+1. will have Select with Option tag name -select class
+2. Without Select tag name-normal way handle 
+
+Select class syntax:
+
+Select op=new Select(WebElement);
+
+methods:
+1.selectByIndex();
+index value -0
+
+2.SelectByVisibleText("text");
+
+3.SelectByValue("value");
+
+
+object.method();
+Ex:
+op.selectByIndex(2);

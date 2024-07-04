@@ -1,0 +1,119 @@
+Todays Agenda:
+8:45-9:00-Recap
+9:00-10:20-  Xpath,Basic Xpath
+10:20-10:50 -Classroom+Break
+10:50-11:20-Implicitly Wait + webDriver methods
+11:30-12:10-Advanced Xpath
+12:10-12:35-Classroom +Break
+12:35-01:10-Continue Xpath
+01:10-01:15-Recap
+
+
+Xpath: 
+13 xpaths
+
+Basic xpath-5
+Advanced xpath-8
+
+Basic Locators :
+ID
+Name
+ClassName
+LinkText
+
+Xpath:
+2 types:
+1.Absolute Xpath
+ex: /html/body/div[2]/div[2]/div/form/p/input
+
+2.Relative Xapth
+ex://tagname[@attributename='attrValue']
+ 1.Basic xpath
+
+ a. Attribute based xpath:
+ex: //input[@id='username']
+
+b.Text based xpath:
+ex: //a[text()='Mobiles']
+
+c.Partial attribute based xpath:
+ex: //input[contains(@id,'sswo')]
+
+d.Partial text based xpath:
+ex: //a[contains(text(),'CRM')]
+
+e.Collection based xpath:
+(//input[@class='inputLogin'])[2]
+(//input[@class='inputBox'])[5]
+
+index value will start from '1'
+
+condition-index vlaue should not go beyond [5]
+
+ 2.Advanced xpath
+a.Parent to child :
+basic xpath for parent/ tagname of child
+ex: //div[contains(@class,'uiStickyPlaceholderInput')]/input
+    //div[contains(@class,'a-section')]/span[contains(text(),'iPhone 13')]
+
+
+b.GrandParent to GrandChild
+Basic for GP//tagname of GC
+ex: (//div[@id='button']//a)[2]
+
+c.child to parent
+basic for child/parent::tagname for parent 
+//span[contains(text(),'Men')]/parent::a
+
+d.Gc to Gp
+basic xpath for Gc/ancestor::tag name GP
+ex: (//input[@id='twotabsearchtextbox']/ancestor::div[@class='nav-fill'])[2]
+    //span[contains(text(),'Men')]/ancestor::li
+
+e.Elder sibling to younger sibling
+basic xpath for ES/following-sibling::tagname YS
+
+ex: //input[@name='pass']/following-sibling::div
+    //label[text()='Username']/following-sibling::input
+
+f.Younger sibling to Elder sibling
+
+ex: //input[@id='password']/preceding-sibling::label
+    //a[text()='Sell']/preceding-sibling::a
+
+g.Elder cousin to Younger cousin
+basic xpath for EC/following::tagname YC
+
+ex://span[contains(text(),'Men')]/following::div[@class='colDataInnerBlk']
+
+h.Younger cousin to Elder Cousin
+
+//div[@class='colDataInnerBlk']/preceding::span[contains(text(),'Men')]
+
+
+
+
+
+
+Thread.sleep(3000);-java wait
+(10000)-mandatory
+next order
+items 10-10mins all the item in the table 
+
+ Implicitly wait(selenium):
+
+one action completed  means it will not wait till time given
+it will go the next action
+
+ 10 item:
+ 1 item-on the table
+
+ 2 item- on the table 
+ 3 item -
+
+ 10 item
+
+
+ Implicitly wait its common for all findElement and findElements methods
+
+

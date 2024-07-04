@@ -1,0 +1,114 @@
+Today Agenda:
+08:45 to 09:00 -> Recap
+09:00 to 09:45 -> String
+09:45 to 10:00 -> Classroom
+10:00 to 10:10 -> Break
+10:10 to 11:20 -> Abstraction
+11:20 to 11:45 -> Classroom+Break
+11:45 to 12:45 -> Collection (List)
+12:45 to 01:10 -> Classroom
+
+String :
+1.length()
+2.equals()
+3.equalignorecase()
+4.contains()
+5.tocharArray()
+6.charAt()
+
+
+
+
+
+
+
+Abstraction:
+
+Interface-100% abstract methods
+Abstract Class-0 to 100%abstract methods
+Execution Class-final class
+
+Keywords:
+1.Class 'extends' class
+2.Class 'implements' interface
+3.Class 'extends' abstractclass
+4.Interface 'extends'  interface
+
+
+Abstraction
+-----------
+   -hiding the details
+   
+   MOM -->brief -->high level info
+   abstract ->paining -->design 
+   plan -->design 
+   
+   Two similar classes can be extended (build relationship between two similar class)
+   
+   Abstraction -->hiding the interanal details and showing the required features to the user
+   --------------
+    Interface -->class 
+	  -->100% abstraction
+	  -->design
+	
+	Class extends class
+	Interface extends interface
+	----------------------------------------------------
+	
+	Abstract class:
+	--------------
+	 -->0 to 100% of abstraction
+	 -->both implemented and unimplemented method
+	 
+	 Interface extends Interface
+	 abstract class extends abstract class
+	 abstract class implements interface
+	 class implements interface
+	 class extends the class
+	 -----------------
+	 ways to use abstract class and implentation
+	 -------------------------------------
+	 Class extends abstract implements interface
+	 abstract implements interface
+	 class extends the abstract class
+	 
+	 
+	 Amazon -->concrete class extend Abstractclass (canarabank)
+	 canarabank implements interface payments
+	 
+	 
+	 Collection:  -->interface
+	 ----------
+	    ->store data
+		
+		Array --> multiple data of same dataype under a single reference
+		      --> Fixed in size
+			  
+			  
+Wrapper class -->String 
+              -->Integer -->int, long, short, byte
+			  -->character -->char
+			  -->Float -->float and double
+			  -->Boolean --> boolean
+
+Collection :
+1.List
+2.Set
+
+
+List:
+ArrayList-Automation
+LinkedList
+
+
+add() - adds an element to a list
+addAll() - adds all elements of one list to another
+get() - get particular element based on index
+size() - returns the length of lists
+contains()-returns true if list contains specified element
+remove() - removes an element from the list
+removeAll() - removes all the elements from the list
+clear() - removes all the elements from the list 
+toArray() - converts a list into an array
+
+

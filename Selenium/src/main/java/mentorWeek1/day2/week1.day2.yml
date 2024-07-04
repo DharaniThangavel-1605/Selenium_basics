@@ -1,0 +1,84 @@
+Today Agenda:
+08:45 - 09:00 -> Recap
+09:00 - 09:45 -> For Loop
+09:45 - 10:05 -> Classroom
+10:05 - 10:15 -> Break
+10:15 - 11:15 -> Method Signature, Object
+11:15 - 11:35 -> Classroom
+11:35 - 11:45 -> Break
+11:45 - 12:45 -> Arrays
+12:45 - 01:05 -> Classroom
+
+
+For Loop:
+
+syntax
+
+for(initializtion;condition;increment/decrement){
+
+}
+
+for(int i=0;i<=10;i++){
+  syso(i);
+}
+
+initialization --> i=0 or i=1 or i=2
+condition --> 5
+incrment/decrement -
+post increment/decrement ---> mostly used (i++/i--)
+once exc is completed it increment/decrement by 1
+
+pre increment/decrement (++i/--i)
+before excit increment/
+int i=5
+syso(++i)
+output =6 
+
+
+Method and Object:
+
+main method :
+public static void main(String[] args){
+
+}
+
+normal method :
+public void add(){
+  
+}
+
+public -> AccessModifier
+
+void -> returnType
+
+add -> method name
+
+() -> input args
+
+
+
+Object:
+
+ClassName objectname= new ClassName();
+
+
+
+Arrays:
+
+int age =20;
+
+String name="Dilip";
+String name1="satheesh";
+String name2="silpa";
+
+* Array start waith index value '0'
+* Array is fixed in length or size
+
+Array Literal :
+
+datatype[] varaiable ={ values}
+
+Array Instantiation:
+if you know the size of array
+
+datatype variable[]= new datatype[value];

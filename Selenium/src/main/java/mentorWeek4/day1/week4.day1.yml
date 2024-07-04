@@ -1,0 +1,65 @@
+Today Agenda:
+
+09:00 to 09:45 -> Alert
+09:50 to 10:05 -> ClassRoom
+10:05 to 10:15 -> Break
+10:10 to 11:00 -> Frame
+11:00 to 11:20 -> ClassRoom
+11:20 to 11:30 -> Break
+11:30 to 12:00 -> SET
+12:00 to 12:15 -> ClassRoom
+12:15 to 01:00 -> WindowHandling
+
+
+TargetLoactors:
+1.Alert
+2.Frame
+3.WindowHandling
+
+
+Alert:
+1.warning
+2.precaution
+
+example:
+Alarm
+application 
+
+Types:
+1.modal alert - we cannot inspect
+
+2.non modal alert- we can inspect
+sweet Alert can be inspectable
+
+
+Syntax:
+driver.swtichTo().alert();
+
+methods:
+1.Accept
+2.Dismiss
+3.GetText
+4.SendKeys
+
+
+Frame :
+
+
+Using Index
+driver.switchTo().frame(int index)
+Index starts with 0
+Using id/name attribute
+driver.switchTo().frame(String id/name Attribute);
+Using WebElement
+driver.switchTo().frame(driver.findElement(WebElement)
+
+
+SET:
+
+list -<2,4,6,3,5,2,8,9,8>
+get(5)-2
+
+
+set -<2,4,6,3,5,8,9>
+get(5)-8-will not use get()
+because index value is getting change

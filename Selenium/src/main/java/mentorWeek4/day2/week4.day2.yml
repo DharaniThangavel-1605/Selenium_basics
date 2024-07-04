@@ -1,0 +1,27 @@
+Today Agenda:
+
+09:00 to 10:00 -> WindowHandling
+10:00 to 10:20 -> ClassRoom
+10:20 to 10:30 -> Break
+10:30 to 11:30 -> Action Class
+11:30 to 11:50 -> ClassRoom
+11:50 to 12:00 -> Break
+12:00 to 12:45 -> WebTable
+12:45 to 01:10 -> ClassRoom
+
+
+
+WindowHandling:
+two methods:
+1.getwindowhandle()-it have one window id-String
+2.getwindowhandles()-it all opened windows id - set<String>
+
+steps: 
+1.getwindowhandles-- set
+2.convert set in to list
+3.use get() to go particular window
+
+create again getwindowhandles -
+
+driver.close- it will close the current window
+driver.quit- it will close all the opened window

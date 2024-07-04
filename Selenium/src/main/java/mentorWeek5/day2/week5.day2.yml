@@ -1,0 +1,54 @@
+Agenda for Today:
+=================
+   
+   09:00 to 10:00->TestNG Attributes
+   10:00 to 10:25->Breakout(15 mins)+Break(10 mins)
+   10:25 to 11:15->Parameterization & Cross Browser 
+   11:15 to 11:45->Breakout(20 mins)+Break(10 mins)
+   11:45 to 12:30->Data provider
+   12:30 to 12:50->Breakout(20 mins)
+   12:50 to 01:10->Live Quiz
+
+
+   TestNG Attributes:
+
+   *1.priority- default =0
+	 *2.enabled- default =true
+	 *3.invocationCount - default=1 
+	 *4.threadPoolSize- will come along with invocationCount-
+	 * -it can run parallel in class level
+	 *5.dependsonMethods- login-message default-{ }-String of Array
+	 *6.timeOut- 5000,invocation count=3-.
+	 *it will give individually(5000) time for all 3 testcase
+	 *timeOut default=0
+	 *7.invocationtimeout--it will take  for all testcase given with the time 
+	 *default=0
+	 *8.Alwaysrun default= false
+
+
+ClassRoom 1:
+create Lead(invocationCount=2)
+edit Lead(enabled=false)
+delete Lead(dependsOnMethods=createLead)
+
+then convert in xml ,form xml run testcase
+
+pass.fail,
+
+
+Leaftaps
+url,username,password
+parameter:
+remove hardcode data and we pass the data
+static-url,username,password,browser
+
+createLead:
+inside the @test
+first name
+last name
+company name
+ph no
+
+create 3 different set of leads
+
+@Dataprovider

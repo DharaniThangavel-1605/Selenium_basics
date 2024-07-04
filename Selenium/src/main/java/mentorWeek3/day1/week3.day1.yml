@@ -1,0 +1,102 @@
+Today Agenda:
+08:45 to 09:00 -> Recap
+09:00 to 10:00 -> OOPs & Inheritance
+10:00 to 10:30 -> Classroom(20mins)+ break(10mins)
+10:30 to 11:15 -> Polymorphism
+11:15 to 11:45 -> Classroom(20mins)+Break(10mins)
+11:45 to 12:25 -> String
+12:25 to 12:45 -> Classroom(15mins)+Break(5mins)
+12:45 to 01:15 -> String
+
+
+
+OOPs-Object Oriented programming Language
+
+4 pillars:
+
+1.Abstraction
+2.Inheritance
+3.Polymorphism
+4.Encapsulation
+
+
+Inheritance:
+
+Inherit properties
+
+parent- child 
+
+reuse code
+
+Types of inheritance:
+1. class Car_P extends Vehicle_GP    - Single level Inheritance
+
+* class ChromeDriver extends ChromiumDriver
+
+2. class Car_P extends Vehicle_GP
+   class BMW_C extends Car_P      -   Multilevel Inheritance
+
+ChromiumDriver extends RemoteWebDriver
+ChromeDriver extends ChromiumDriver
+
+
+
+ 3. class Car_P extends Vehicle_GP
+    class Auto_p extends Vehicle_GP   -Hierarchical inheritance
+
+ 4.    Hybrid Inheritance 
+
+
+
+ Polymorphism:
+ 
+ Two types:
+ 1. Static poly/compile time poly/early binding - method overloading
+
+Method OverLoading:
+same method we can more than one inside same class ,but different input agrs given
+
+class data{
+
+
+public void browserName(){
+
+}
+
+public void browserName(int version){
+
+}
+
+public void browserName(int version,String name){
+
+}
+
+error: public void browserName(){     }
+
+}
+
+example: System.out.println()
+
+
+ 2.Dynamic poly/run time poly/late binding  -method overriding
+
+Method overriding we achive with inheritance 
+
+Same method name and input agrs same  in two different  class
+
+
+
+String:
+
+String Literal:
+syntax: 
+datatype variablename="value"
+
+String name="TestLeaf"
+
+String instantiation:
+
+datatype varname=new datatype("value")
+
+String name=new String("Testleaf")
+
